@@ -1,0 +1,150 @@
+{
+    "newCoffees": [
+        {
+            "id": 1,
+            "name": "Café Brasilia",
+            "origin": "Brasil",
+            "process": "Lavado",
+            "image": "./img/image.png",
+            "description": "Caramelo, chocolate, cuerpo medio y baja acidéz",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 2,
+            "name": "Café Little Colombia",
+            "origin": "Colombia",
+            "process": "Natural",
+            "image": "./img/image.png",
+            "description": "Caramelo, cuerpo suave y baja acidéz",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 3,
+            "name": "Café Ron Sans",
+            "origin": "Guatemala",
+            "process": "Lavado",
+            "image": "./img/image.png",
+            "description": "Caramelo, description cítricas y un cuerpo suave",
+            "weight": "500 Gramos"
+        }
+    ],
+    "oldCoffees": [
+        {
+            "id": 4,
+            "name": "Café Rica Costa",
+            "image": "./img/image.png",
+            "origin": "Costa Rica",
+            "process": "Expresso",
+            "description": "Avellanas, de aroma floral. Su distintiva y delicada acidez lo convierte en un café muy especial.",
+            "weight": "800 Gramos"
+        },
+        {
+            "id": 5,
+            "name": "Café Nuestras Fincas",
+            "image": "./img/image.png",
+            "origin": "Guatemala",
+            "process": "Expresso",
+            "description": "Café expreso intenso de gran cuerpo. Ideal para los amantes del sabor fuerte.",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 6,
+            "name": "Café Sierra Típica",
+            "image": "./img/image.png",
+            "origin": "Ecuador",
+            "process": "Lavado",
+            "description": "Café de cuerpo medio sin amargor y con notas de Melaza dulces muy    placenteras e ideales para las mañanas.",
+            "weight": "800 Gramos"
+        },
+        {
+            "id": 7,
+            "name": "Café Colombia Cantares",
+            "image": "./img/image.png",
+            "origin": "Colombia",
+            "process": "Expresso",
+            "description": "Café de sensación tradicional y cuerpo medio con notas de Avellana.",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 8,
+            "name": "Café Altamira",
+            "image": "./img/image.png",
+            "origin": "Brasil",
+            "process": "Expresso",
+            "description": "Con notas dulces de chocolate intenso, su aroma produce una sensación cálida y reconfortante",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 9,
+            "name": "Café Bacaal",
+            "image": "./img/image.png",
+            "origin": "Brasil",
+            "process": "Lavado",
+            "description": "Su cuerpo suave y notas provenientes del caramelo, avellanas y dulce de leche producen una combinación única y compleja",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 10,
+            "name": "Café Bacaal",
+            "image": "./img/image.png",
+            "origin": "Colombia",
+            "process": "Natural",
+            "description": "Cacao maduro y citricos con acidez media. Con un cuerpo bajo que constituye su presencia delicada",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 11,
+            "name": "Café Otavalo",
+            "image": "./img/image.png",
+            "origin": "Ecuador",
+            "process": "Lavado",
+            "description": "Café suave de aroma floral y un gusto cítrico amable.",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 12,
+            "name": "Café Rio Banano",
+            "image": "./img/image.png",
+            "origin": "Costa Rica",
+            "process": "Lavado",
+            "description": "Una cuidadosa selección de granos nos permite degustar este café de cuerpo suave sin acidez.",
+            "weight": "600 Gramos"
+        },
+        {
+            "id": 13,
+            "name": "Café del Manzanillo",
+            "image": "./img/image.png",
+            "origin": "Costa Rica",
+            "process": "Natural",
+            "description": "Café desarrollado para el disfrute de aquellos que gosan del café intenso. Su gran cuerpo y sabor especiado de complejidad son las notas que más se desarrollan en nuestra boca.",
+            "weight": "600 Gramos"
+        },
+        {
+            "id": 14,
+            "name": "Café Sepecue",
+            "image": "./img/image.png",
+            "origin": "Costa Rica",
+            "process": "Lavado",
+            "description": "Café de cuerpo medio y aroma relajante con notas de chocolate amargo.",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 15,
+            "name": "Café Orenalla",
+            "image": "./img/image.png",
+            "origin": "Ecuador",
+            "process": "Expresso",
+            "description": "Un café sin amargor de notas cítricas que produce una placentera sensación al momento de ser degustado.",
+            "weight": "500 Gramos"
+        },
+        {
+            "id": 16,
+            "name": "Café Del Zoe",
+            "image": "./img/image.png",
+            "origin": "Brasil",
+            "process": "Natural",
+            "description": "Café facilmente distinguible por su particular aroma cítrico. Con notas de chocolate y avellana.",
+            "weight": "500 Gramos"
+        }
+    ]
+}
