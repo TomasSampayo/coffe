@@ -1,13 +1,17 @@
 <template>
-  <section>
-    <div class="uk-card uk-card-default uk-card-body uk-width-1-2@m">
-      <h3 class="uk-card-title">{{name}}</h3>
-      <p>
-        Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
+    <div class="uk-card uk-background-secondary">
+    <div class="uk-card-media-top">
+      <img
+        class="uk-align-center uk-margin-xlarge-top img-size"
+        v-bind:src="image"
+        alt="imagen de la bolsa que contiene {{name}}"
+      />
     </div>
-  </section>
+    <div class="uk-text-center card-body-position">
+      <h3 class="uk-card-title uk-text-primary title">{{ name }}</h3>
+      <p class="uk-text-primary lead">"{{ description }}"</p>
+    </div>
+  </div>
 </template>
 
 <script>

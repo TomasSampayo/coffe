@@ -4,37 +4,20 @@
     <NewCoffeeCardCarrousel />
     <!-- EXPRESSOS -->
     <h2 class="uk-text-center">Expressos</h2>
-    <div v-for="coffee in oldCoffees" :key="coffee.name">
-      <div>
-        <Card v-if="coffee.process == 'Expresso'" name="coffee.name" description="coffee.description" image="coffee.image"/>
-      </div>
-    </div>
-    <!-- NATURALES -->
-    <h2 class="uk-text-center">Naturales</h2>
-    <div v-for="coffee in oldCoffees" :key="coffee.name">
-      <div v-if="coffee.process == 'Natural'">
-        <Card :name="coffee.name" description="coffee.description" image="coffee.image"/>
-      </div>
-    </div>
-    <!-- LAVADOS -->
+        <CardCarrousel :coffees="oldCoffees" type="Expresso"/>
     <h2 class="uk-text-center">Lavados</h2>
-    <div v-for="coffee in oldCoffees" :key="coffee.name">
-      <div v-if="coffee.process == 'Lavado'">
-        <Card :name="coffee.name" description="coffee.description" image="coffee.image"/>
-      </div>
-    </div>
+        <CardCarrousel :coffees="oldCoffees" type="Lavado"/>
     <AboutUs />
   </div>
-  
 </template>
 
 <script>
 import UIkit from "uikit";
 import Icons from "uikit/dist/js/uikit-icons";
 import NewCoffeeCardCarrousel from "./components/NewCoffeeCardCarrousel.vue"
-import Card from "./components/Card.vue"
 import AboutUs from "./components/AboutUs.vue"
 import Navbar from "./components/Navbar.vue"
+import CardCarrousel from "./components/CardCarrousel.vue"
 import axios from "axios";
 
 UIkit.use(Icons);
@@ -47,9 +30,9 @@ export default {
   },
   components: {
     NewCoffeeCardCarrousel,
-    Card,
     AboutUs,
-    Navbar
+    Navbar,
+    CardCarrousel
   },
   mounted() {
     axios

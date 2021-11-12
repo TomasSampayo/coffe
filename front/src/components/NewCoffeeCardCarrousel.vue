@@ -50,7 +50,6 @@ export default {
     axios
       .get("./database.json")
       .then((res) => (this.coffees = res.data))
-      .then((res) => console.log(res));
   },
 };
 </script>
