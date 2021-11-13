@@ -40,7 +40,7 @@
         },
         {
             "id": 5,
-            "name": "Café Nuestras Fincas",
+            "name": "Café Dos Fincas",
             "image": "./img/image.png",
             "origin": "Guatemala",
             "process": "Expresso",
@@ -58,7 +58,7 @@
         },
         {
             "id": 7,
-            "name": "Café Colombia Cantares",
+            "name": "Café Cantares",
             "image": "./img/image.png",
             "origin": "Colombia",
             "process": "Expresso",
