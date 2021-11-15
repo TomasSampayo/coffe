@@ -8,6 +8,9 @@
         Expressos
       </h2>
       <CardCarrousel :coffees="oldCoffees" type="Expresso" />
+      <div :v-if="oldCoffees">
+        <!-- <div v-for="cafe in lavados(oldCoffees)" :key="cafe.name">dagggllgcffs</div> -->
+      </div>
       <h2 class="uk-text-center uk-margin-xlarge-top uk-heading-small header">
         Lavados
       </h2>
@@ -32,6 +35,7 @@ export default {
   data() {
     return {
       oldCoffees: null,
+      expressos: null,
     };
   },
   components: {
@@ -44,6 +48,11 @@ export default {
     axios
       .get("./database.json")
       .then((res) => (this.oldCoffees = res.data.oldCoffees))
+  },
+  methods: {
+    lavados(coffeeList) {
+      return coffeeList.filter((coffee) => coffee.process === "Lavado");
+    },
   },
 };
 </script>
