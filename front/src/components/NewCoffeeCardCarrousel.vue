@@ -6,7 +6,7 @@
           class="uk-position-relative uk-visible-toggle uk-light"
           tabindex="-1"
         >
-          <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
+          <ul class="uk-slider-items uk-child-width-1-2@s uk-grid uk-grid-small">
             <li v-for="coffee in coffees.newCoffees" v-bind:key="coffee.id">
               <NewCoffeeCard :title="coffee.name" :img="coffee.image" :lead="coffee.description"/>
             </li>

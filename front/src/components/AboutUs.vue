@@ -31,7 +31,9 @@
           <p><b>Mail:</b>somoscafe@gmail.com</p>
           </div>
         </div>
-        <img uk-img src="../assets/about-us.png" alt="Somos cafe bar" />
+        <div>
+          <img uk-img src="../assets/about-us.png" alt="Somos cafe bar" />
+        </div>
       </div>
     </div>
   </section>
