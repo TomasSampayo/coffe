@@ -25,13 +25,14 @@
             <div>
               <h2 class="uk-text-primary">Visitá Nuestro Local</h2>
               <p class="text">
-                dir Av. de la Rosa 42026 <br />tel 123456789 <br />horario 9 a
-                22 hs
+                <b>Dirección:</b> Av. de la Rosa 42026 horario <br>
+                <b>Teléfono</b> 123456789 <br>
+                <b>Horario</b> 9 a 22 hs
               </p>
             </div>
             <div>
               <h2 class="uk-text-primary">Contactos</h2>
-              <p><b>Mail:</b>somoscafe@gmail.com</p>
+              <p><b>Mail:</b> somoscafe@gmail.com</p>
             </div>
           </div>
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="uk-card uk-background-secondary">
+  <div class="uk-card uk-card-small uk-background-secondary">
     <div class="uk-card-media-top">
       <img
         class="uk-align-center uk-margin-xlarge-top img-size"
