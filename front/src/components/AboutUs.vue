@@ -1,43 +1,47 @@
 <template>
-  <section
+  <section id="about" 
     class="
+    uk-section
       uk-background-secondary
       uk-text-left@l
       uk-text-center@s
       uk-text-primary
-      uk-margin-xlarge-top
     "
   >
-    <div class="uk-container uk-container-small">
-      <div class="uk-grid-small" uk-grid>
-        <div class="uk-width-3-5">
-          <h2 class="uk-text-primary uk-heading-medium uk-margin-top">Sobre Nosotros</h2>
-          <p class="text">
+    <div class="uk-container">
+      <div class="uk-grid uk-flex-middle" uk-grid>
+        <div class="uk-width-3-5@m">
+          <h2 class="uk-text-primary uk-heading-small">Sobre Nosotros</h2>
+          <p>
             Tenemos preparado un rincón en el corazón de la ciudad
             para que te sientas siempre como en casa.
           </p>
-          <p class="text">
+          <p>
             No solo podemos prepararte un café con los granos que elegiste sinó
             que también ofrecemos degustaciones para animarte a encontrar tu 
             próximo café favorito.
           </p>
-          <div uk-grid>
+          
+          <adress uk-grid class="uk-margin-medium-top uk-grid">
+            
             <div>
-              <h2 class="uk-text-primary">Visitá Nuestro Local</h2>
-              <p class="text">
-                <b>Dirección:</b> Av. de la Rosa 42026 horario <br>
-                <b>Teléfono</b> 123456789 <br>
-                <b>Horario</b> 9 a 22 hs
-              </p>
+              <h3 class="uk-text-primary uk-margin-remove-bottom">Visitá Nuestro Local</h3>
+              <ul class="uk-list uk-margin-small-top">
+                <li><strong>Dirección</strong> Av. de la Rosa 42026 horario</li>
+                <li><strong>Teléfono</strong> <a href="tel:+54123456789">123456789</a></li>
+                <li><strong>Horario</strong> 9 a 22 hs</li>
+              </ul>
             </div>
+
             <div>
-              <h2 class="uk-text-primary">Contactos</h2>
-              <p><b>Mail:</b> somoscafe@gmail.com</p>
+              <h3 class="uk-text-primary uk-margin-remove-bottom">Contactos</h3>
+              <p class=" uk-margin-small-top"><strong>Correo Electrónico</strong> <a href="mailto:somoscafe@gmail.com">somoscafe@gmail.com</a></p>
             </div>
-          </div>
+
+          </adress>
         </div>
-        <div class="uk-width-2-5 uk-flex uk-flex-middle">
-          <img uk-img src="../assets/about-us.svg" alt="Somos cafe bar" />
+        <div class="uk-width-2-5@m">
+          <img uk-img src="../assets/about-us.png" alt="Somos cafe bar" class="uk-width-1-1" />
         </div>
       </div>
     </div>

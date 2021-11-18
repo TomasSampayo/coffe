@@ -7,7 +7,7 @@
             "process": "Lavado",
             "image": "./img/image.png",
             "description": "Caramelo, chocolate, cuerpo medio y baja acidéz",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "process": "Natural",
             "image": "./img/image.png",
             "description": "Caramelo, cuerpo suave y baja acidéz",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 3,
@@ -25,7 +25,7 @@
             "process": "Lavado",
             "image": "./img/image.png",
             "description": "Caramelo, description cítricas y un cuerpo suave",
-            "weight": "500 Gramos"
+            "weight": "500"
         }
     ],
     "oldCoffees": [
@@ -36,7 +36,7 @@
             "origin": "Costa Rica",
             "process": "Expresso",
             "description": "Avellanas, de aroma floral. Su distintiva y delicada acidez lo convierte en un café muy especial.",
-            "weight": "800 Gramos"
+            "weight": "800"
         },
         {
             "id": 5,
@@ -45,7 +45,7 @@
             "origin": "Guatemala",
             "process": "Expresso",
             "description": "Café expreso intenso de gran cuerpo. Ideal para los amantes del sabor fuerte.",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 6,
@@ -54,7 +54,7 @@
             "origin": "Ecuador",
             "process": "Lavado",
             "description": "Café de cuerpo medio sin amargor y con notas de Melaza dulces muy    placenteras e ideales para las mañanas.",
-            "weight": "800 Gramos"
+            "weight": "800"
         },
         {
             "id": 7,
@@ -63,7 +63,7 @@
             "origin": "Colombia",
             "process": "Expresso",
             "description": "Café de sensación tradicional y cuerpo medio con notas de Avellana.",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 8,
@@ -72,7 +72,7 @@
             "origin": "Brasil",
             "process": "Expresso",
             "description": "Con notas dulces de chocolate intenso, su aroma produce una sensación cálida y reconfortante",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 9,
@@ -81,7 +81,7 @@
             "origin": "Brasil",
             "process": "Lavado",
             "description": "Su cuerpo suave y notas provenientes del caramelo, avellanas y dulce de leche producen una combinación única y compleja",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 10,
@@ -90,7 +90,7 @@
             "origin": "Colombia",
             "process": "Natural",
             "description": "Cacao maduro y citricos con acidez media. Con un cuerpo bajo que constituye su presencia delicada",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 11,
@@ -99,7 +99,7 @@
             "origin": "Ecuador",
             "process": "Lavado",
             "description": "Café suave de aroma floral y un gusto cítrico amable.",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 12,
@@ -108,7 +108,7 @@
             "origin": "Costa Rica",
             "process": "Lavado",
             "description": "Una cuidadosa selección de granos nos permite degustar este café de cuerpo suave sin acidez.",
-            "weight": "600 Gramos"
+            "weight": "600"
         },
         {
             "id": 13,
@@ -117,7 +117,7 @@
             "origin": "Costa Rica",
             "process": "Natural",
             "description": "Café desarrollado para el disfrute de aquellos que gosan del café intenso. Su gran cuerpo y sabor especiado de complejidad son las notas que más se desarrollan en nuestra boca.",
-            "weight": "600 Gramos"
+            "weight": "600"
         },
         {
             "id": 14,
@@ -126,7 +126,7 @@
             "origin": "Costa Rica",
             "process": "Lavado",
             "description": "Café de cuerpo medio y aroma relajante con notas de chocolate amargo.",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 15,
@@ -135,7 +135,7 @@
             "origin": "Ecuador",
             "process": "Expresso",
             "description": "Un café sin amargor de notas cítricas que produce una placentera sensación al momento de ser degustado.",
-            "weight": "500 Gramos"
+            "weight": "500"
         },
         {
             "id": 16,
@@ -144,7 +144,7 @@
             "origin": "Brasil",
             "process": "Natural",
             "description": "Café facilmente distinguible por su particular aroma cítrico. Con notas de chocolate y avellana.",
-            "weight": "500 Gramos"
+            "weight": "500"
         }
     ]
 }

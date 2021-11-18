@@ -1,9 +1,31 @@
 // 1. Your custom variables and variable overwrites.
+
+// Backgrounds
 $global-primary-background: #DBBE87;
 $global-secondary-background: #353535;
-$dotnav-item-hover-background: #DA7D02;
-$dotnav-item-onclick-background: #DA7D02;
-$dotnav-item-active-background: #DA7D02;
+$global-background: $global-primary-background;
+
+// Fonts
+$global-font-family: "Lato", sans-serif;
+
+// Navbar
+$navbar-nav-item-color: $global-secondary-background;
+$navbar-toggle-color: $global-secondary-background;
+$navbar-toggle-hover-color: $global-secondary-background;
+$search-placeholder-color:$global-secondary-background;
+
+// Slideshow
+$dotnav-item-hover-background: $global-secondary-background;
+$dotnav-item-onclick-background: $dotnav-item-hover-background;
+$dotnav-item-active-background: $dotnav-item-hover-background;
+
+// Badge
+$badge-background: $global-secondary-background;
+
+// Text
+$text-lead-font-size: 1.2rem;
+$base-body-font-weight: 300;
+
 
 // 2. Import default variables and available mixins.
 @import "uikit/src/scss/variables-theme.scss";
@@ -14,3 +36,58 @@ $dotnav-item-active-background: #DA7D02;
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+// Customs
+
+// Label
+.uk-label-new {
+	margin-top: -5rem;
+}
+
+// Card
+.uk-card {
+	border-radius: 10px;
+	@media (min-width: $breakpoint-medium) {
+		border-radius: 20px;
+	}
+}
+
+// Navbar
+.uk-navbar-nav > li > a, .uk-navbar-item, .uk-navbar-toggle {
+	font-weight: 400;
+}
+
+// NewCoffeeCard
+#NewCoffeeCard {
+	.uk-container {
+		@media (min-width: $breakpoint-small) {
+			max-width: unset;
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+.badge-radious {
+	border-radius: 15px;
+}
+.badge-size {
+	width: 109px;
+	height: 31px;
+}
+.badge-position {
+	position: relative;
+	top: -60px;
+}
+.red-background {
+	background-color: #ff4848;
+}
+.text-white {
+	color: white;
+}
+.img-size {
+	width: 250px;
+	height: 250px;
+}
