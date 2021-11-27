@@ -54,6 +54,11 @@
           return coffeeList.filter((coffee) => coffee.process === "Lavado");
         },
       },
+      computed: {
+        Expressos() {
+          return this.oldCoffees ? this.coffees.filter((coffee) => coffee.process === "Expresso") : "Loading..."
+        }
+      }
     };
   </script>
 

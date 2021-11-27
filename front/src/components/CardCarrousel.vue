@@ -12,11 +12,9 @@
           <li v-for="coffee in coffees" v-bind:key="coffee.id">
             <div class="uk-panel">
               <Card v-if="coffee.process === type"
-              :name="coffee.name"
-              :image="coffee.image"
-              :description="coffee.description"
+              :title="coffee.name" :img="coffee.image" :lead="coffee.description" :origin="coffee.origin" :process="coffee.process" :weight="coffee.weight" :coffeeId="coffee.id"
               />
-            </div>
+            </div>    
           </li>
         </ul>
 
