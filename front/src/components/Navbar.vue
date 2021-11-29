@@ -3,12 +3,12 @@
     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
       <div class="uk-navbar-left">
         <a class="uk-navbar-item uk-logo" href="#">
-          <img src="../assets/logo.png" alt="Logo" />
+          <img src="../assets/images/logo.png" alt="Logo" />
         </a>
       </div>
 
-      <div class="nav-overlay uk-navbar-right uk-visible@m">
-        <ul class="uk-navbar-nav">
+      <div class="nav-overlay uk-navbar-right">
+        <ul class="uk-navbar-nav uk-visible@s">
           <li><a href="#about" uk-scroll>Sobre nosotros</a></li>
         </ul>
 

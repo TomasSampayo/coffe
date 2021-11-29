@@ -24,7 +24,7 @@
           
           <adress uk-grid class="uk-margin-medium-top uk-grid">
             
-            <div>
+            <div class="uk-text-center">
               <h3 class="uk-text-primary uk-margin-remove-bottom">Visitá Nuestro Local</h3>
               <ul class="uk-list uk-margin-small-top">
                 <li><strong>Dirección</strong> Av. de la Rosa 42026 horario</li>
@@ -41,7 +41,7 @@
           </adress>
         </div>
         <div class="uk-width-2-5@m">
-          <img uk-img src="../assets/about-us.png" alt="Somos cafe bar" class="uk-width-1-1" />
+          <img uk-img src="../assets/images/about-us.png" alt="Somos cafe bar" class="uk-width-1-1" />
         </div>
       </div>
     </div>

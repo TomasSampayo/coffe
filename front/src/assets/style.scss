@@ -9,6 +9,7 @@ $global-background: $global-primary-background;
 $card-default-title-color: $global-secondary-background;
 $card-primary-title-color: $global-secondary-background;
 $card-primary-title-color: $global-secondary-background;
+
 // Fonts
 $global-font-family: "Lato", sans-serif;
 
@@ -92,6 +93,6 @@ $base-body-font-weight: 300;
 	color: white;
 }
 .img-size {
-	width: 250px;
-	height: 250px;
+	min-width: 150px;
+	min-height: 150px;
 }

@@ -1,6 +1,6 @@
 <template>
-  <div class="uk-height-match uk-card-secondary">
-    <div class="uk-card uk-card-body uk-card-small">
+  <div>
+    <div class="uk-card uk-card-body uk-card-secondary uk-card-hover">
       <div class="uk-card-media-top">
         <img
           class="uk-align-center img-size"
@@ -9,7 +9,7 @@
         />
       </div>
       <div class="uk-text-center card-body-position">
-      <h3 class="uk-card-title title">{{ title }}</h3>
+      <h4 class="uk-card-title">{{ title }}</h4>
       <p class="uk-text-primary lead">"{{ lead }}"</p>
           <button
       class="uk-align-center uk-button uk-button-default uk-button-primary"
@@ -19,11 +19,12 @@
       Ver Más
     </button>
     </div>
+    <!-- MODAL -->
     </div>
     <div id="my-id" uk-modal>
       <div class="uk-modal-dialog uk-modal-body uk-background-secondary uk-text-primary">
         <div class="uk-modal-header uk-background-secondary">
-          <h2 class="uk-modal-title uk-text-primary">{{ title }}</h2>
+          <h5 class="uk-modal-title uk-text-primary">{{ title }}</h5>
         </div>
         <div class="uk-modal-body">
           <img
@@ -31,9 +32,9 @@
             v-bind:src="img"
             alt="imagen de la bolsa que contiene {{title}}"
           />
-          <p>{{ lead }}</p>
+          <p class="uk-text-italic">{{ lead }}</p>
         </div>
-        <ul class="uk-list">
+        <ul>
           <li>
             <strong>Origen</strong> {{origin}}
           </li>
