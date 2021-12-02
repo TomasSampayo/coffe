@@ -1,27 +1,17 @@
 <template>
-  <div class="uk-card uk-card-small uk-background-secondary">
-    <div class="uk-card-media-top">
+  <div id="NewCoffeeCard" class="uk-card uk-card-body uk-card-secondary uk-text-center y">
+    
       <img
-        width="180"
-        height="180"
-        class="uk-align-center uk-margin-medium-top image-radious-circle"
-        v-bind:src="img"
-        alt="imagen de la bolsa que contiene {{title}}"
-      />
-      <!--HEADER -->
-      <div
-        class="
-          badge-radious badge-size
-          red-background
-          uk-align-center
-          badge-position
-          uk-margin-remove-bottom
-        "
-      >
-        <p class="uk-text-center text-white">NUEVO</p>
-      </div>
-    </div>
-    <div class="uk-text-center card-body-position">
+    class="uk-align-center uk-border-circle"
+    v-bind:src="img"
+    alt="imagen de la bolsa que contiene {{title}}"
+    />
+      
+      <!--NEW COFFEE BADGE -->
+    <span class="uk-label uk-label-danger uk-text-large uk-label-new">
+      Nuevo
+    </span>
+
       <h3 class="uk-card-title">{{ title }}</h3>
       <p
         class="
@@ -32,10 +22,10 @@
       >
         "{{ lead }}"
       </p>
-    </div>
+
     <button
-      class="uk-align-center uk-button uk-button-default uk-button-primary"
-      :uk-toggle="`target: #ID`"
+      class="uk-button uk-button-default uk-button-primary"
+      :uk-toggle="`target: #NewCoffeModal`"
       type="button"
     >
       Ver Más
@@ -43,18 +33,20 @@
 
     <!-- MODAL -->
 
-    <div id="ID" uk-modal>
+    <div id="NewCoffeModal" uk-modal>
       <div
         class="
-          uk-modal-dialog uk-modal-body uk-background-secondary uk-text-primary
+          uk-modal-dialog uk-background-secondary uk-text-primary uk-text-center uk-text-left@s
         "
       >
         <!-- HEADER -->
-        <div class="uk-modal-header uk-background-secondary">
+        <div class="uk-modal-header uk-background-secondary ">
+           <button class="uk-modal-close-default" type="button" uk-close></button>
           <h2
-            class="uk-modal-title uk-text-primary uk-text-center uk-text-left@s"
+            class="uk-modal-title uk-text-primary"
           >
             {{ title }}
+            <span class="uk-label uk-label-danger uk-margin-left">Nuevo</span>
           </h2>
         </div>
         <!-- BODY -->
@@ -64,45 +56,13 @@
             v-bind:src="img"
             alt="imagen de la bolsa que contiene {{title}}"
           />
-          <div
-            class="
-              badge-radious badge-size
-              red-background
-              uk-align-center
-              badge-position
-              uk-margin-remove-bottom
-            "
-          >
-            <p class="uk-text-center text-white">NUEVO</p>
-          </div>
-          <p class="uk-text-italic uk-text-center uk-text-left@s">{{ lead }}</p>
-        </div>
-        <ul>
-          <li><strong>Origen</strong> {{ origin }}</li>
-          <li><strong>Process</strong> {{ process }}</li>
-          <li><strong>Weight</strong> {{ weight }}</li>
-        </ul>
-        <!-- FOOTER -->
-        <div
-          class="
-            uk-modal-footer
-            uk-background-secondary
-            uk-text-center
-            uk-text-left@s
-          "
-        >
-          <button
-            class="
-              uk-modal-close
-              uk-button
-              uk-button-default
-              uk-button-primary
-              uk-text-secondary
-            "
-            type="button"
-          >
-            Cerrar
-          </button>
+          <p class="uk-text-italic">{{ lead }}</p>
+
+          <ul class="uk-list uk-list-disc">
+            <li><strong>Origen</strong> {{ origin }}</li>
+            <li><strong>Process</strong> {{ process }}</li>
+            <li><strong>Weight</strong> {{ weight }}</li>
+          </ul>
         </div>
       </div>
     </div>

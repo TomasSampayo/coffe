@@ -49,6 +49,21 @@ $base-body-font-weight: 300;
 // Label
 .uk-label-new {
 	margin-top: -5rem;
+	//background-color: red;
+}
+.uk-light {
+	.uk-label-danger {
+		background-color: $label-danger-background;
+		color: $label-danger-color;
+	}
+}
+
+// Button
+.uk-button {
+	border-radius: 10px;
+	@media (min-width: $breakpoint-medium) {
+		border-radius: 20px;
+	}
 }
 
 // Card
@@ -72,6 +87,11 @@ $base-body-font-weight: 300;
 			padding-left: 0;
 			padding-right: 0;
 		}
+	}
+	img {
+		width: 180px;
+		height: 180px;
+		object-fit: cover;
 	}
 }
 

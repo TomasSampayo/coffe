@@ -3,8 +3,8 @@
     class="
     uk-section
       uk-background-secondary
+      uk-text-center
       uk-text-left@l
-      uk-text-center@s
       uk-text-primary
     "
   >
@@ -22,9 +22,9 @@
             próximo café favorito.
           </p>
           
-          <adress uk-grid class="uk-margin-medium-top uk-grid">
+          <adress uk-grid class="uk-margin-medium-top uk-grid uk-child-width-1-2@m">
             
-            <div class="uk-text-center">
+            <div>
               <h3 class="uk-text-primary uk-margin-remove-bottom">Visitá Nuestro Local</h3>
               <ul class="uk-list uk-margin-small-top">
                 <li><strong>Dirección</strong> Av. de la Rosa 42026 horario</li>
