@@ -5,7 +5,7 @@
             "name": "Café Brasilia",
             "origin": "Brasil",
             "process": "Lavado",
-            "image": "./img/image.png",
+            "image": "./coffee-images/Brasilia.png",
             "description": "Caramelo, chocolate, cuerpo medio y baja acidéz perfecto para iniciar las mañanas.",
             "weight": "500"
         },
@@ -14,7 +14,7 @@
             "name": "Café Little Colombia",
             "origin": "Colombia",
             "process": "Natural",
-            "image": "./img/image.png",
+            "image": "./coffee-images/little-colombia.png",
             "description": "Caramelo, cuerpo suave y baja acidéz, Su dulce aroma facil de distinguir lo convierte en un café muy especial.",
             "weight": "500"
         },
@@ -23,7 +23,7 @@
             "name": "Café Ron Sans",
             "origin": "Guatemala",
             "process": "Lavado",
-            "image": "./img/image.png",
+            "image": "./coffee-images/ron-sans.png",
             "description": "Caramelo, description cítricas y un cuerpo suave conocido por su convinación de cítricos y dulces.",
             "weight": "500"
         }
@@ -32,7 +32,7 @@
         {
             "id": 4,
             "name": "Café Rica Costa",
-            "image": "./img/image.png",
+            "image": "./coffee-images/rica-costa.png",
             "origin": "Costa Rica",
             "process": "Expresso",
             "description": "Avellanas, de aroma floral. Su distintiva y delicada acidez lo convierte en un café muy especial.",
@@ -41,7 +41,7 @@
         {
             "id": 5,
             "name": "Café Dos Fincas",
-            "image": "./img/image.png",
+            "image": "./coffee-images/dos-fincas.png",
             "origin": "Guatemala",
             "process": "Expresso",
             "description": "Café expreso intenso de gran cuerpo. Ideal para los amantes del sabor fuerte.",
@@ -50,7 +50,7 @@
         {
             "id": 6,
             "name": "Café Sierra Típica",
-            "image": "./img/image.png",
+            "image": "./coffee-images/sierra-tipica.png",
             "origin": "Ecuador",
             "process": "Lavado",
             "description": "Café de cuerpo medio sin amargor y con notas de Melaza dulces muy placenteras e ideales para las mañanas.",
@@ -59,7 +59,7 @@
         {
             "id": 7,
             "name": "Café Cantares",
-            "image": "./img/image.png",
+            "image": "./coffee-images/cantares.png",
             "origin": "Colombia",
             "process": "Expresso",
             "description": "Café de sensación tradicional y cuerpo medio con notas de Avellana.",
@@ -68,7 +68,7 @@
         {
             "id": 8,
             "name": "Café Altamira",
-            "image": "./img/image.png",
+            "image": "./coffee-images/altamira.png",
             "origin": "Brasil",
             "process": "Expresso",
             "description": "Con notas dulces de chocolate intenso, su aroma produce una sensación cálida y reconfortante.",

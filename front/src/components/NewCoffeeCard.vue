@@ -2,7 +2,9 @@
   <div class="uk-card uk-card-small uk-background-secondary">
     <div class="uk-card-media-top">
       <img
-        class="uk-align-center uk-margin-medium-top img-size"
+        width="180"
+        height="180"
+        class="uk-align-center uk-margin-medium-top image-radious-circle"
         v-bind:src="img"
         alt="imagen de la bolsa que contiene {{title}}"
       />
